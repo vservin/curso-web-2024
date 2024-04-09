@@ -1,0 +1,82 @@
+h1 {
+  color: red;
+}
+
+/* Esto modifica a todos los elementos "p" de la pagina */
+p {
+  font-size: 20pt;
+}
+
+/* Esto modifica a todos los elementos que tengan clase "name" */
+.name {
+  font-size: 15pt;
+}
+
+/* Esto modifica a todos los elementos "p" que tengan clase "name" */
+p.name {
+  font-size: 10pt;
+}
+
+/* ---------------- Perfil mascota ---------------- */
+
+* {
+  box-sizing: border-box;
+  font-size: 12pt;
+}
+
+div.grid {
+  display: flex;
+  gap: 15px;
+}
+
+div.mascota {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+div.mascota h1, div.mascota h2 {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+div.mascota p {
+  font-size: 14pt;
+  background-color: beige;
+  margin: 0;
+  padding: 5px 0;
+}
+
+div.mascota p.raza {
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+div.mascota img {
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 25%;
+}
+
+div.mascota .accion {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+div.mascota button {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+div.mascota button:hover {
+  background-color: rgb(0, 232, 232);
+  color: black;
+}
