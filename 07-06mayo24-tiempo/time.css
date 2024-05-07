@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(rgb(220, 124, 255) 0%, rgb(0, 201, 177) 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chronometer {
+  font-size: 30pt;
+  text-align: center;
+}
+
+#controls button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: rgba(152, 20, 229, 0.5);
+}
+
+#controls button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
