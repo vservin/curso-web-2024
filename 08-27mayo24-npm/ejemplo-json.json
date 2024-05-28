@@ -1,0 +1,27 @@
+{
+  "name": "This is an example of a JSON file",
+  "description": "This is a JSON file example",
+  "version": "1.0",
+  "age-number": 28,
+  "this-is-an-object": {
+    "name": "This is an object",
+    "description": "This is an object example",
+    "version": "1.0",
+    "age-number": 28
+  },
+  "this-is-an-array": [
+    {
+      "name": "This is an array",
+      "description": "This is an array example",
+      "version": "1.0",
+      "age-number": 28
+    },
+    {
+      "name": "This is an array",
+      "description": "This is an array example",
+      "version": "1.0",
+      "age-number": 28
+    }
+  ],
+  "this-is-another-array": [1,2,3,4]
+}

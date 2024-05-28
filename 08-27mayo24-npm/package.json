@@ -1,0 +1,14 @@
+{
+  "name": "clase-npm",
+  "version": "1.0.0",
+  "description": "This is a web course class with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vservin",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.1"
+  }
+}
